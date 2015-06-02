@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Tetris</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="./lib/utils.js"></script>
+    <script src="./lib/tetromino.js"></script>
+    <script src="./lib/cell.js"></script>
+    <script src="./lib/gameView.js"></script>
+    <script src="./lib/game.js"></script>
+    <script src="./lib/underscore.js"></script>
+    <script src="./lib/keymaster.js"></script>
+  </head>
+  <body>
+    <canvas id="game-canvas" width="400" height="800"></canvas>
+    <script type="text/javascript">
+      var canvas = document.getElementById("game-canvas");
+      var ctx = canvas.getContext("2d");
+      var game = new Tetris.Game();
+      var gameView = new Tetris.GameView(game, ctx);
+
+      gameView.start();
+    </script>
+  </body>
+</html>

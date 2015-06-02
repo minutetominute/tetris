@@ -1,0 +1,7 @@
+#game-canvas {
+  position: absolute;
+  border: 3px solid black;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
