@@ -1,7 +1,33 @@
+.game-container {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 400px;
+  height: 800px;
+}
+
 #game-canvas {
   position: absolute;
   border: 3px solid black;
   left: 50%;
   top: 50%;
   transform: translateY(-50%) translateX(-50%);
+}
+
+.game-info {
+  position: absolute;
+  left: 135%;
+  top: 25%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+h1 {
+  font-family: 'Droid Sans', sans-serif;
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+#next-tetromino {
+  border: 3px solid black;
 }
