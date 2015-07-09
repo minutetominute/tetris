@@ -2,7 +2,7 @@
 
 Classic canvas based game written in Javascript
 
-[See it live](http://www.jmgarza.info/tetris.js)
+[See it live!](http://www.jmgarza.info/tetris.js)
 
 ##Features
 
