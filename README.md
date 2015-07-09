@@ -2,6 +2,8 @@
 
 Classic canvas based game written in Javascript
 
+[See it live](http://www.jmgarza.info/tetris.js)
+
 ##Features
 
 Game renders smoothly and rapidly by redrawing only portions of the screen that have changed.  Similarly, the game uses requestAnimationFrame to draw only when the browser
