@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Droid Sans', sans-serif;
+}
+
 .game-container {
   position: relative;
   left: 50%;
@@ -25,10 +29,6 @@
           transform: translateX(-50%);
 }
 
-h1 {
-  font-family: 'Droid Sans', sans-serif;
-}
-
 .game-instructions {
   position: absolute;
   left: -35%;
@@ -53,6 +53,18 @@ h1 {
 
 #next-tetromino {
   border: 3px solid black;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.footer a {
+  float: left;
+  display: block;
+  margin: 20px 20px 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

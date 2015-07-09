@@ -36,11 +36,15 @@
       </div>
       <canvas id="game-canvas" width="300" height="600"></canvas>
       <div class="game-info">
-        <h1 class="game-info-header">Next row:</h1>
+        <h1 class="game-info-header">Next piece:</h1>
         <canvas id="next-tetromino" width="150" height="150"></canvas>
         <h1 class="game-info-header">Rows cleared: <span class="rows-cleared">0</span></h1>
       </div>
     </div>
+    <footer class="footer">
+      <a href="#">By Jose Garza</a>
+      <a href="#">Source Code</a>
+    </footer>
     <script type="text/javascript">
       var gameViewCanvas = document.getElementById("game-canvas");
       var gameViewCtx = gameViewCanvas.getContext("2d");
