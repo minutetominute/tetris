@@ -15,11 +15,30 @@
   </head>
   <body>
     <div class="game-container">
-      <canvas id="game-canvas" width="400" height="800"></canvas>
+      <h1 class="game-title">Tetris.js</h1>
+      <div class="game-instructions">
+        <h1 class="game-instructions-header">Instructions:</h1>
+        <p>
+          &#8593: Rotate piece
+        </p>
+        <p>
+          &#8592: Move left one column
+        </p>
+        <p>
+          &#8594: Move right one column
+        </p>
+        <p>
+          &#8595: Drop down one row
+        </p>
+        <p>
+          Space bar: Drop piece
+        </p>
+      </div>
+      <canvas id="game-canvas" width="300" height="600"></canvas>
       <div class="game-info">
-        <h1>Next row:</h1>
-        <canvas id="next-tetromino" width="200" height="200"></canvas>
-        <h1>Rows cleared: <span class="rows-cleared">0</span></h1>
+        <h1 class="game-info-header">Next row:</h1>
+        <canvas id="next-tetromino" width="150" height="150"></canvas>
+        <h1 class="game-info-header">Rows cleared: <span class="rows-cleared">0</span></h1>
       </div>
     </div>
     <script type="text/javascript">

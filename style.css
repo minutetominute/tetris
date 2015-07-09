@@ -3,8 +3,8 @@
   left: 50%;
   top: 50%;
   transform: translateY(-50%) translateX(-50%);
-  width: 400px;
-  height: 800px;
+  width: 300px;
+  height: 600px;
 }
 
 #game-canvas {
@@ -18,14 +18,32 @@
 .game-info {
   position: absolute;
   left: 135%;
-  top: 25%;
-  transform: translateY(-50%) translateX(-50%);
+  top: 8%;
+  transform: translateX(-50%);
 }
 
 h1 {
   font-family: 'Droid Sans', sans-serif;
+}
+
+.game-instructions {
+  position: absolute;
+  left: -35%;
+  top: 8%;
+  transform: translateX(-50%);
+}
+
+.game-title {
+  position: absolute;
+  top: -12%;
+  left: 50%;
+  transform: translateX(-50%);
   margin: 5px 0;
-  font-size: 24px;
+}
+
+.game-info-header, .game-instructions-header  {
+  margin: 5px 0;
+  font-size: 20px;
 }
 
 #next-tetromino {
